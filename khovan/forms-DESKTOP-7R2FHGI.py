@@ -1,0 +1,1 @@
+from django import formsfrom django.contrib import adminfrom khovan.models import *class Nhaphangchuaduyetgaps(forms.ModelForm):    class Meta:        model = Phieunhaphang        fields = '__all__'
